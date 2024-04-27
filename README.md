@@ -33,3 +33,10 @@ graph LR;
   untracked -- "git add"    --> staged;
   staged    -- "git commit" --> tracked/comitted;
 ```
+
+## Исправить последний коммит
+Работает только с последним коммитом (HEAD).
+```bash
+git add <что-то>
+git commit --amend --no-edit
+```
