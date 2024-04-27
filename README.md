@@ -25,3 +25,11 @@ git log --oneline
 ```
 
 HEAD - последний (самый новый) коммит.
+
+
+## Схема
+```mermaid
+graph LR;
+  untracked -- "git add"    --> staged;
+  staged    -- "git commit" --> tracked/comitted;
+```
