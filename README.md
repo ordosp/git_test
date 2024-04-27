@@ -13,3 +13,13 @@ git add --all
 
 git commit -m "First commit"
 ```
+
+## Просмотр истории коммитов
+```bash
+
+# в полном виде
+git log
+
+# в сокращенном виде
+git log --oneline
+```
